@@ -8,7 +8,7 @@ using System.Threading;
 using System.Net;
 using System.Diagnostics;
 
-namespace Ping_Lab4
+namespace PingClient
 {
     class Program
     {
@@ -18,14 +18,14 @@ namespace Ping_Lab4
         private const int port = 1055;
         static void Main(string[] args)
         {
-            if (args.Length != 1)
-            {
-                Console.WriteLine("Required arguments: port");
-                return;
-            }
+            //if (args.Length != 1)
+            //{
+            //    Console.WriteLine("Required arguments: port");
+            //    return;
+            //}
 
             Stopwatch stopWatch = new Stopwatch();
-            int port = Convert.ToInt32(args[0]);
+            //int port = Convert.ToInt32(args[0]);
             IPEndPoint localpt = new IPEndPoint(IPAddress.Any, port);
             // Create random number generator for use in simulating
             // packet loss and network delay.

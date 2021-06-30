@@ -1,0 +1,13 @@
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.exe
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.deps.json
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.runtimeconfig.json
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.runtimeconfig.dev.json
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.dll
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\bin\Debug\netcoreapp3.1\PingClient.pdb
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.csproj.AssemblyReference.cache
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.AssemblyInfoInputs.cache
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.AssemblyInfo.cs
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.csproj.CoreCompileInputs.cache
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.dll
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.pdb
+C:\Users\evett\Documents\school\4A\MSCI 445\MSCI445_Lab4\PingClient\PingClient\obj\Debug\netcoreapp3.1\PingClient.genruntimeconfig.cache
