@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ping_Lab4": {
+      "commandName": "Project",
+      "commandLineArgs": "2000"
+    }
+  }
+}
