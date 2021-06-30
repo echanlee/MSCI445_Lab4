@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using System.Text;
 using System.Net.Sockets;
 using System.Threading;
 using System.Net;
+using System.Diagnostics;
+
 namespace Ping_Lab4
 {
     class Program
@@ -20,6 +23,8 @@ namespace Ping_Lab4
                 Console.WriteLine("Required arguments: port");
                 return;
             }
+
+            Stopwatch stopWatch = new Stopwatch();
             int port = Convert.ToInt32(args[0]);
             IPEndPoint localpt = new IPEndPoint(IPAddress.Any, port);
             // Create random number generator for use in simulating
@@ -33,14 +38,30 @@ namespace Ping_Lab4
             socket.Client.Bind(localpt);
             System.Net.IPEndPoint ep = null;
             socket.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.SendTimeout, 1000);
+            socket.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 1000);
 
             // Processing loop.
-            for(int i =0; i<10; i++)
-            {
+            for (int i = 0; i < 10; i++)
+            {   
                 // Block until the host receives a UDP packet.
-                byte[] msg = Encoding.UTF8.GetBytes("PING "+i+" "+DateTime.Now.ToString("h:mm:ss tt"));
-                socket.Send(null, 0, ep);
+                byte[] msg = Encoding.UTF8.GetBytes("PING " + i + " " + DateTime.Now.ToString("h:mm:ss tt")+"\r\n");
+
+                stopWatch.Start();
+                socket.Send(msg, msg.Length, ep);
+                Console.WriteLine("Sending ping");
                 // Print the recieved data.
+                try
+                {
+                    byte[] rdata = socket.Receive(ref ep);
+                    stopWatch.Stop();
+                    Console.WriteLine("Ping request was answered with RTT: "+ stopWatch.Elapsed);
+                }
+                catch (SocketException e)
+                {
+                    Console.WriteLine("Png was not answered within 1 second. The packet has been dropped.");
+                }
+
+                stopWatch.Reset();
             }
         }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\evett\\source\\repos\\Ping_Lab4\\Ping_Lab4\\Ping_Lab4.csproj": {}
+    "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\evett\\source\\repos\\Ping_Lab4\\Ping_Lab4\\Ping_Lab4.csproj": {
+    "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\evett\\source\\repos\\Ping_Lab4\\Ping_Lab4\\Ping_Lab4.csproj",
-        "projectName": "Ping_Lab4",
-        "projectPath": "C:\\Users\\evett\\source\\repos\\Ping_Lab4\\Ping_Lab4\\Ping_Lab4.csproj",
+        "projectUniqueName": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
+        "projectName": "PingClient",
+        "projectPath": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
         "packagesPath": "C:\\Users\\evett\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\evett\\source\\repos\\Ping_Lab4\\Ping_Lab4\\obj\\",
+        "outputPath": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\evett\\AppData\\Roaming\\NuGet\\NuGet.Config",
