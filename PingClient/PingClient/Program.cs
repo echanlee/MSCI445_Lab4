@@ -12,17 +12,10 @@ namespace PingClient
 {
     class Program
     {
-        private const double LOSS_RATE = 0.3;
-        private const double AVG_DELAY = 100; //milliseconds
         private const string host = "127.0.0.1";
         private const int port = 1055;
         static void Main(string[] args)
         {
-            //if (args.Length != 1)
-            //{
-            //    Console.WriteLine("Required arguments: port");
-            //    return;
-            //}
 
             Stopwatch stopWatch = new Stopwatch();
             //int port = Convert.ToInt32(args[0]);
@@ -35,7 +28,6 @@ namespace PingClient
             UdpClient socket = new UdpClient(host, port);
             socket.Client.SetSocketOption(SocketOptionLevel.Socket,
            SocketOptionName.ReuseAddress, true);
-            socket.Client.Bind(localpt);
             System.Net.IPEndPoint ep = null;
             socket.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.SendTimeout, 1000);
             socket.Client.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReceiveTimeout, 1000);
@@ -47,18 +39,18 @@ namespace PingClient
                 byte[] msg = Encoding.UTF8.GetBytes("PING " + i + " " + DateTime.Now.ToString("h:mm:ss tt")+"\r\n");
 
                 stopWatch.Start();
-                socket.Send(msg, msg.Length, ep);
-                Console.WriteLine("Sending ping");
+                socket.Send(msg, msg.Length);
+                Console.WriteLine("Sending ping\r\n");
                 // Print the recieved data.
                 try
                 {
                     byte[] rdata = socket.Receive(ref ep);
                     stopWatch.Stop();
-                    Console.WriteLine("Ping request was answered with RTT: "+ stopWatch.Elapsed);
+                    Console.WriteLine("Ping request was answered with RTT: "+ stopWatch.Elapsed + "\r\n");
                 }
                 catch (SocketException e)
                 {
-                    Console.WriteLine("Png was not answered within 1 second. The packet has been dropped.");
+                    Console.WriteLine("Ping was not answered within 1 second. The packet has been dropped.");
                 }
 
                 stopWatch.Reset();

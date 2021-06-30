@@ -8,20 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\evett\\.nuget\\packages\\": {}
+    "C:\\Users\\emchanle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
+      "projectUniqueName": "C:\\Users\\emchanle\\source\\repos\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
       "projectName": "PingClient",
-      "projectPath": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
-      "packagesPath": "C:\\Users\\evett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\obj\\",
+      "projectPath": "C:\\Users\\emchanle\\source\\repos\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
+      "packagesPath": "C:\\Users\\emchanle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emchanle\\source\\repos\\MSCI445_Lab4\\PingClient\\PingClient\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\evett\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\emchanle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

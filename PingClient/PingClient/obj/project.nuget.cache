@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEkARL36TqHLOxOL+XRDaC/MzSxlJ1UWxGdURQHz1N2wH5ZQmkj9hXG1rFY4vUYv8F5iSuHSgjGl4e/qWqnuPQ==",
+  "dgSpecHash": "0cBwc/OJqM+ui6zNBUPLZGP/ai5yoKLsPn04AW/uvmJh9KCARbiO59mWDuZipSLJjw6U50mF0Pz+zPt51mMnPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\evett\\Documents\\school\\4A\\MSCI 445\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
+  "projectFilePath": "C:\\Users\\emchanle\\source\\repos\\MSCI445_Lab4\\PingClient\\PingClient\\PingClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
